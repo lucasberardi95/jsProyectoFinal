@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caesar Dressing', cursive;
+    width: 100%;
+    height: 100vh;
+}
+
+.imgTipoDeDolar{
+    margin-top: 2rem;
+}
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightgreen;
+}
+
+.colorBoton{
+    color: white;
+    background-color: darkgreen;
+}
+
+.colorBoton:hover{
+    background-color: greenyellow;
+    color: black;
+}
