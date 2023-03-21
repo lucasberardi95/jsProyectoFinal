@@ -161,6 +161,18 @@ comprar.addEventListener("click", () => {
         title: 'Seguro que deseas llevarte los verdes ya mismo?',
         text: 'Te recomendaria que si, cada segundo que pasa tu moneda vale menos que un samuelin!',
         icon: 'question',
-        confirmButtonText: 'SIII'
+        confirmButtonText: 'SIII',
+        showCancelButton: true, 
+        cancelButtonText: "Cancelar"
+    }).then((result) => {
+        if(result.isConfirmed) {
+            Swal.fire({
+                title:"Dolares en la bolsa!",
+                icon: "success",
+                imageUrl: "./img/stonks.jpg",
+                confirmButtonText: "Aceptar"
+            })
+        eliminarTodoElCarro();
+        }
     })
 })
