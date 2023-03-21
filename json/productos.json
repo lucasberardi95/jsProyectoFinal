@@ -1,0 +1,9 @@
+[
+    {"id":1, "nombre": "One Dollar", "precio": 377, "img": "./img/oneDollar.jpg", "cantidad": 1},
+    {"id":2, "nombre": "Two Dollars", "precio": 754, "img": "./img/twoDollars.jpg", "cantidad": 1},
+    {"id":3, "nombre": "Five Dollars", "precio": 1885, "img": "./img/fiveDollars.jpg", "cantidad": 1},
+    {"id":4, "nombre": "Ten Dollars", "precio": 3770, "img": "./img/tenDollars.jpg", "cantidad": 1},
+    {"id":5, "nombre": "Twenty Dollars", "precio": 7540, "img": "./img/twentyDollars.jpg", "cantidad": 1},
+    {"id":6, "nombre": "Fifty Dollars", "precio": 18850, "img": "./img/fiftyDollars.jpg", "cantidad": 1},
+    {"id":7, "nombre": "One Hundred Dollars", "precio": 37700, "img": "./img/oneHundredDollars.jpg", "cantidad": 1}
+]
